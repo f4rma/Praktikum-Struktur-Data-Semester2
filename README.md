@@ -88,3 +88,26 @@ Dosen Pengampu      : Randi Proska Sandra, M.Sc
 <hr><hr>
 
 <h2 id="js3">Job Sheet 3 - Single Linked List</h2>
+
+<p> ✦ <b>Simpul/Nodes</b> : berisi alamat dan kumpulan data. Dalam sebuah simpul/node keduanya dibungkus menjadi sebuah objek berupa struct </p>
+
+<p> ✦ <b>Alokasi Memory</b> : Memberi fasilitas untuk membuat ukuran buffer dan array secara dinamik, yang berarti ruang dalam memori akan dialokasikan ketika program dieksekusi (run time), sehingga memungkinkan user untuk membuat tipe data dan struktur dengan ukuran dan panjang berapapun yang disesuaikan dengan kebutuhan di dalam program. </p>
+
+<p> ✦ <b>Perintah sizeof()</b> digunakan untuk;</p>
+<ul>
+  <li>mendapatkan ukuran dari berbagai tipe data, variabel ataupun struktur.</li>
+  <li>Return value : ukuran dari obyek yang bersangkutan dalam byte.</li>
+  <li>Parameter dari sizeof() : sebuah obyek atau sebuah tipe data </li>
+</ul>
+
+<p> ✦ <b>Perintah malloc()</b> digunakan untuk mengembalikan penunjuk kosong ke ruang yang dialokasikan, atau NULL jika memori yang tersedia tidak mencukupi.</p>
+
+<p> ✦ <b>Linked List</b> : merupakan sebuah data yang berupa simpul atau node beralamat yang saling bertaut. Setiap simpul bisa menyimpan data yang mana isinya bisa char, int, string atau tipe data lainnya.</p>
+<p> ✦ <b>Single Linked list</b> : merupakan suatu linked list yang hanya memiliki satu variabel pointer saja. Dimana pointer tersebut menunjuk ke node selanjutnya.</p>
+<hr><hr>
+
+<h2 id="js4">Job Sheet 4 - Doubly Linked List</h2>
+
+<p> ✦ <b>Double Link List(DLL)</b> : berisi pointer tambahan, biasanya disebut pointer sebelumnya, bersama 
+dengan pointer berikutnya dan data yang ada dalam daftar tertaut tunggal.</p>
+<p> ✦ <b></b></p>
