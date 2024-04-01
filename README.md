@@ -84,6 +84,7 @@ Dosen Pengampu      : Randi Proska Sandra, M.Sc
 </ul>
 
 <p> ✦ <b>ADT (Abstract Data Type) atau Tipe Data Bentukan</b> : Koleksi data dan operasi yang dapat digunakan untuk memanipulasi data, tipe data tertentu yang didefinisikan oleh pemrogram untuk kemudahan pemrograman serta untuk mengakomodasi tipe-tipe data yang tidak secara spesifik diakomodasi oleh bahasa pemrograman yang digunakan.</p>
+
 <p>Dalam  bahasa C terdapat tipe data numerik dan karakter (seperti int, float, char dan lain-lain). Selain itu juga terdapat tipe data enumerasi dan structure.</p>
 <hr><hr>
 
@@ -126,6 +127,7 @@ Dosen Pengampu      : Randi Proska Sandra, M.Sc
 <h2 id="js5">Job Sheet 5 - Double and Circular Linked List</h2>
 
 <p> ✦ <b>Double Linked List</b> : Elemen-elemen dihubungkan dengan dua pointer dalam satu node, menyebabkan list melintas baik ke depan (next) maupun ke belakang (prev) atau (back).</p>
+
 <p> setiap node memiliki 3 field, yaitu 1 field pointer yang menunjuk pointer berikutnya (next), 1 field menunjuk pointer sebelumnya (prev), serta sebuah field yang berisi data untuk node tersebut</p>
 <p>Untuk menunjukkan head dari double linked list, maka pointer prev dari elemen pertama menunjuk NULL, sedangkan untuk menunjukkan tail dari double linked list, maka pointer next dari elemen terakhir yang menunjuk NULL.</p>
 
@@ -137,15 +139,29 @@ Dosen Pengampu      : Randi Proska Sandra, M.Sc
 <p> ✦ <b>Stack</b> : sebuah kumpulan data dimana data tersebut diletakkan di atas data yang lain. Menggunakan aturan LIFO (Last In First Out) yang berarti elemen 
 terakhir yang disimpan dalam stack menjadi elemen pertama yang diambil.</p>
 
-<p><b>Push</b> digunakan untuk menambahkan elemen atau data baru dalam tumpukan. Elemen baru tersebut pasti akan menjadi elemen yang paling atas dalam tumpukan setiap kali ditambahkan.</p>
+<p> ♢ <b>Push</b> digunakan untuk menambahkan elemen atau data baru dalam tumpukan. Elemen baru tersebut pasti akan menjadi elemen yang paling atas dalam tumpukan setiap kali ditambahkan.</p>
 
-<p><b>Pop</b> digunakan untuk menghapus elemen yang berada pada posisi paling atas dari stack.</p>
+<p> ♢ <b>Pop</b> digunakan untuk menghapus elemen yang berada pada posisi paling atas dari stack.</p>
 
-<p><b>Peek</b> digunakan untuk mengecek elemen atau data paling atas tanpa menghapusnya dari stack.</p>
+<p> ♢ <b>Peek</b> digunakan untuk mengecek elemen atau data paling atas tanpa menghapusnya dari stack.</p>
 
-<p><b>isFull</b> digunakan untuk memeriksa apakah kondisi stack sudah penuh. Dengan cara menambah satu (increment) nilai TOP of STACK setiap ada penambahan elemen stack 
+<p> ♢ <b>isFull</b> digunakan untuk memeriksa apakah kondisi stack sudah penuh. Dengan cara menambah satu (increment) nilai TOP of STACK setiap ada penambahan elemen stack 
 selama stack masih belum penuh, kemudian Isikan nilai baru ke stack berdasarkan indeks TOP of STACK setelah ditambah satu (increment). </p>
 
-<p><b>isEmpty</b> digunakan untuk memeriksa apakah stack masih dalam kondisi kosong. Dengan cara memeriksa TOP of STACK. Jika TOP masih = -1 maka berarti stack masih kosong. </p>
+<p> ♢ <b>isEmpty</b> digunakan untuk memeriksa apakah stack masih dalam kondisi kosong. Dengan cara memeriksa TOP of STACK. Jika TOP masih = -1 maka berarti stack masih kosong. </p>
 
-<p><b>Clear</b> digunakan untuk mengosongkan stack.</p>
+<p> ♢ <b>Clear</b> digunakan untuk mengosongkan stack.</p>
+<hr><hr>
+
+<h2 id="js7">Job Sheet 7 - Queue</h2>
+
+<p> ✦ <b>Queue (Antrian)</b> : suatu bentuk khusus dari List Linier dengan operasi penyisipan (insertion) hanya diperbolehkan pada salah satu sisi, yang disebut sisi belakang (REAR), dan operasi penghapusan (deletion) hanya diperbolehkan pada sisi yang lainnya.</p>
+<p>Prinsip dasar dari struktur data ini adalah “First In, First Out” (FIFO) yang berarti elemen data yang pertama dimasukkan ke dalam antrean akan menjadi yang pertama pula untuk dikeluarkan.</p>
+
+<p>Fungsi utama Queue ialah mengatur dan mengelola antrean tugas atau operasi secara efisien.</p>
+<p>Dalam sistem komputasi, ia digunakan untuk menangani tugas-tugas seperti penjadwalan proses, antrean pesan, dan manajemen sumber daya.</p>
+<p>Urutan pertama (data yang akan dikeluarkan) disebut Front atau Head. Sebaliknya, data pada urutan terakhir (data yang baru saja ditambahkan) disebut Back, Rear, atau Tail.</p>
+<p> ♢ <b>Enqueue</b> merupakan proses untuk menambahkan data pada antrean.</p>
+<p> ♢ <b>Dequeue</b> merupakan proses untuk menghapus data dari antrean.</p>
+
+
