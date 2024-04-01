@@ -108,6 +108,44 @@ Dosen Pengampu      : Randi Proska Sandra, M.Sc
 
 <h2 id="js4">Job Sheet 4 - Doubly Linked List</h2>
 
-<p> ✦ <b>Double Link List(DLL)</b> : berisi pointer tambahan, biasanya disebut pointer sebelumnya, bersama 
-dengan pointer berikutnya dan data yang ada dalam daftar tertaut tunggal.</p>
-<p> ✦ <b></b></p>
+<p> ✦ <b>Doubly Link List(DLL)</b> : berisi pointer tambahan, biasanya disebut pointer sebelumnya, bersama dengan pointer berikutnya dan data yang ada dalam daftar tertaut tunggal. Memiliki head dan tail. Memiliki dua arah data yakni next dan previous </p>
+<p> Sebuah linked list dikatakan kosong apabila isi pointer head adalah NULL. Selain itu, nilai pointer prev dari HEAD selalu NULL, karena merupakan data pertama.</p>
+<p> ✦ Kelebihan dibanding single link list, yakni</p>
+<ul>
+  <li>Double Link List dapat berjalan dalam 2 arah ke depan dan belakang,</li>
+  <li>Operasi penghapusan atau deletion() lebih efisien dan simple menggunakan pointer yang menunjuk ke simpul yang akan dihapus,</li>
+  <li>Dapat melakukan proses insert() simpul lebih efisien.</li>
+</ul>
+<p> ✦ Kelemahan Doubly Link List, yakni</p>
+<ul>
+  <li>Setiap simpul DLL membutuhkan ruang memory tambahan untuk pointer 2 pointer,</li>
+  <li>Setiap operasi yang dilakukan harus mencantumkan pointer simpul sebelumnya.</li>
+</ul>
+<hr><hr>
+
+<h2 id="js5">Job Sheet 5 - Double and Circular Linked List</h2>
+
+<p> ✦ <b>Double Linked List</b> : Elemen-elemen dihubungkan dengan dua pointer dalam satu node, menyebabkan list melintas baik ke depan (next) maupun ke belakang (prev) atau (back).</p>
+<p> setiap node memiliki 3 field, yaitu 1 field pointer yang menunjuk pointer berikutnya (next), 1 field menunjuk pointer sebelumnya (prev), serta sebuah field yang berisi data untuk node tersebut</p>
+<p>Untuk menunjukkan head dari double linked list, maka pointer prev dari elemen pertama menunjuk NULL, sedangkan untuk menunjukkan tail dari double linked list, maka pointer next dari elemen terakhir yang menunjuk NULL.</p>
+
+<p> ✦ <b>Circular Linked List</b> : merupakan linked list yang tidak memiliki tail.  Pada circular list, pointer next dari elemen terakhir menunjuk ke elemen pertama dan bukan menunjuk NULL. Pada double linked circular list, pointer prev dari elemen pertama menunjuk ke elemen terakhir. </p>
+<hr><hr>
+
+<h2 id="js6">Job Sheet 6 - Stack</h2>
+
+<p> ✦ <b>Stack</b> : sebuah kumpulan data dimana data tersebut diletakkan di atas data yang lain. Menggunakan aturan LIFO (Last In First Out) yang berarti elemen 
+terakhir yang disimpan dalam stack menjadi elemen pertama yang diambil.</p>
+
+<p><b>Push</b> digunakan untuk menambahkan elemen atau data baru dalam tumpukan. Elemen baru tersebut pasti akan menjadi elemen yang paling atas dalam tumpukan setiap kali ditambahkan.</p>
+
+<p><b>Pop</b> digunakan untuk menghapus elemen yang berada pada posisi paling atas dari stack.</p>
+
+<p><b>Peek</b> digunakan untuk mengecek elemen atau data paling atas tanpa menghapusnya dari stack.</p>
+
+<p><b>isFull</b> digunakan untuk memeriksa apakah kondisi stack sudah penuh. Dengan cara menambah satu (increment) nilai TOP of STACK setiap ada penambahan elemen stack 
+selama stack masih belum penuh, kemudian Isikan nilai baru ke stack berdasarkan indeks TOP of STACK setelah ditambah satu (increment). </p>
+
+<p><b>isEmpty</b> digunakan untuk memeriksa apakah stack masih dalam kondisi kosong. Dengan cara memeriksa TOP of STACK. Jika TOP masih = -1 maka berarti stack masih kosong. </p>
+
+<p><b>Clear</b> digunakan untuk mengosongkan stack.</p>
