@@ -164,4 +164,12 @@ selama stack masih belum penuh, kemudian Isikan nilai baru ke stack berdasarkan 
 <p> ♢ <b>Enqueue</b> merupakan proses untuk menambahkan data pada antrean.</p>
 <p> ♢ <b>Dequeue</b> merupakan proses untuk menghapus data dari antrean.</p>
 
+<h2 id="js8">Job Sheet 8 - Bubble and Insertion Sort</h2>
+
+<p> ✦ <b>Sorting (Pengurutan)</b> : merupakan proses pengurutan data yang sebelumnya disusun secara acak sehingga tersusun secara teratur menurut aturan tertentu.</p>
+<p>Teknik Sorting yang umum digunakan : buble sort, insertion sort, selection sort, quicksort, mergesort, heapsort, dan binary sort</p>
+
+<p> ♢ <b>Buble Sort</b> : metode/algoritma pengurutan dengan dengan cara melakukan penukaran data dengan tepat disebelahnya secara terus menerus sampai bisa dipastikan dalam satu iterasi tertentu tidak ada lagi perubahan. Jika tidak ada perubahan berarti data sudah terurut. Disebut pengurutan gelembung karena masing-masing kunci akan dengan lambat menggelembung ke posisinya yang tepat.</p>
+<p> ♢ <b>Insertion Sort</b> : merupakan sebuah teknik pengurutan dengan cara membandingkan dan mengurutkan dua data pertama pada array, kemudian membandingkan data para array berikutnya apakah sudah berada di tempat semestinya. Algoritma insertion sort seperti proses pengurutan kartu yang berada di tangan kita .</p>
+
 
