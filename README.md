@@ -196,7 +196,7 @@ terurut. </li>
 
 <h2 id="js10">Job Sheet 10 - Shell and Quick Sort</h2>
 
-<p> ✦ <b>Shell Sort</b> : merupakan sebuah algoritma dengan pengurutan elemen pertama memiliki jarak interval dengan elemen yang akan dibandingkan. Pada prinsipnya sama dengan Insertion sort pada pokok bahasan sebelumnya.</p>
+<p> ✦ <b>Shell Sort</b> : merupakan sebuah algoritma dengan pengurutan elemen pertama memiliki jarak interval dengan elemen yang akan dibandingkan. Pada prinsipnya sama dengan Insertion sort.</p>
 <p>Dalam pengurutan Shell Sort, elemen/data diurutkan dengan interval yang terukur. Jarak interval diantara elemen semakin lama semakin mengecil berdasarkan berapa kali pengulangan pengurutan 
  dilakukan.</p>
 <p>Cara kerja Shell Sort: </p>
@@ -211,6 +211,36 @@ terurut. </li>
 <p> ✦ <b>Quick Sort</b> : Algoritma ini mengambil sebuah elemen sebagai pivot dan memisahkan array yang ada disekitar pivot.</p>
 <p>Proses utama dalam quickSort adalah partisi() . Target dari partisi adalah untuk menempatkan pivot (elemen apa pun dapat dipilih menjadi pivot) pada posisi yang benar dalam susunan yang diurutkan dan meletakkan semua elemen yang lebih kecil di sebelah kiri pivot, dan semua elemen yang lebih besar di sebelah kanan pivot .</p>
 <p>Partisi dilakukan secara rekursif pada setiap sisi pivot setelah pivot ditempatkan pada posisi yang benar dan akhirnya mengurutkan array.</p>
+<hr><hr>
+
+<h2 id="js11">Job Sheet 11 - Linear and Binary Search</h2>
+
+<p><b>Algoritma pencarian</b> (searching algorithm) adalah algoritma yang menerima sebuah argumen kunci dan dengan langkah-langkah tertentu akan mencari rekaman dengan kunci tersebut.  Setelah proses pencarian dilaksanakan, akan diperoleh salah satu dari dua kemungkinan, yaitu data yang dicari ditemukan (successful) atau tidak ditemukan (unsuccessful). </p>
+<p> ✦ <b>Linear Search</b> : merupakan algoritma pencarian berurutan yang dimulai dari satu ujung dan menelusuri setiap elemen daftar hingga elemen yang diinginkan ditemukan, jika tidak, pencarian akan berlanjut hingga akhir kumpulan data.</p>
+<p>Search Linear dilakukan dengan mengulangi semua elemen array dan memeriksa apakah elemen saat ini sama dengan elemen target. Jika ditemukan elemen apa pun yang sama dengan elemen target, kembalikan indeks elemen saat ini. Sebaliknya, jika tidak ada elemen yang sama dengan elemen target, kembalikan -1 karena elemen tersebut tidak ditemukan.</p>
+<p>✦ <b>Binary Search</b> : algoritma pencarian yang digunakan untuk menemukan posisi nilai target dalam array yang diurutkan . Ia bekerja dengan membagi interval pencarian menjadi dua berulang kali hingga nilai target ditemukan atau interval tersebut kosong.</p>
+<p>Berikut Langkah-langkahnya:
+<ul>
+  <li>Data diambil dari posisi 1 sampai posisi akhir N</li>
+  <li>cari posisi data tengah dengan rumus: (posisi awal + posisi akhir) / 2 </li>
+  <li>Kemudian data yang dicari dibandingkan dengan data yang di tengah, apakah sama atau lebih kecil, atau lebih besar</li>
+  <li>Jika lebih besar, maka proses pencarian dicari dengan posisi awal adalah posisi tengah + 1</li>
+  <li>Jika lebih kecil, maka proses pencarian dicari dengan posisi akhir adalah posisi tengah – 1 </li>
+  <li>Jika data sama, berarti ketemu.</li>
+</ul></p>
+<hr><hr>
+
+<h2 id="js12">Job Sheet 12 - Tree</h2>
+
+<p>✦ <b>Tree Traversal</b> atau melintasi sebuah pohon data/tree : mengunjungi semua simpul (node) yang ada pada pohon tersebut.</p>
+<p>Setiap Tree adalah kombinasi dari sebuah simpul yang menyimpan data dan 2-sub tree</p>
+<p>Berdasarkan urutan yang akan dilakukan, terdapat 3 cara melintasi tree: </p>
+<ol type="1">
+  <li><b>Inorder Traversal</b>, langkah-langkahnya: Kunjungi semua nodes/simpul di sebelah kiri subtree, kemudian kunjungi root node/simpul paling atas. Terakhir, Kunjungi semua simpul yang ada di kanan subtree.</li>
+  <li><b>Preorder Traversal</b>, langkah-langkahnya: kunjungi simpul paling atas, kemudian Kunjungi semua simpul di sebelah kiri subtree. Terakhir, Kunjungi semua simpul yang ada di kanan subtree</li>
+  <li><b>Postorder Traversal</b>, langkah-langkahnya: Kunjungi semua simpul di sebelah kiri subtree, kemudian Kunjungi semua simpul di sebelah kanan subtree. Terakhir, kunjungi simpul paling atas.</li>
+</ol>
+<hr><hr>
 
 
 
