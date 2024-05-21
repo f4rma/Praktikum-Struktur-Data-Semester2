@@ -242,5 +242,14 @@ terurut. </li>
 </ol>
 <hr><hr>
 
+<h2 id="js13">Job Sheet 13 - Graphs</h2>
+
+<p>✦ <b>Breadth-First Search (BFS)</b> : merupakan teknik berbasis titik untuk menemukan jalur terpendek dalam grafik. Dengan menggunakan struktur data Antrian (Queue) yang mengikuti first in first out (FIFO).</p>
+<p>Cara kerjanya yaitu Satu simpul dipilih pada suatu waktu ketika simpul tersebut dikunjungi dan ditandai, kemudian simpul yang berdekatan dikunjungi dan disimpan dalam antrian.</p>
+<p>✦ <b>Depth First Search (DFS)</b> : merupakan teknik berbasis tepi (edge) yang menggunakan struktur data Stack dan melakukan dua tahap, yaitu;
+  <ul>
+    <li>simpul yang dikunjungi pertama dimasukkan ke dalam tumpukan, dan</li>
+    <li>jika tidak ada simpul, maka simpul yang dikunjungi akan dimunculkan.</li>
+  </ul></p>
 
 
