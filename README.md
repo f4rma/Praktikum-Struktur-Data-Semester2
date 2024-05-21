@@ -249,7 +249,14 @@ terurut. </li>
 <p>✦ <b>Depth First Search (DFS)</b> : merupakan teknik berbasis tepi (edge) yang menggunakan struktur data Stack dan melakukan dua tahap, yaitu;
   <ul>
     <li>simpul yang dikunjungi pertama dimasukkan ke dalam tumpukan, dan</li>
-    <li>jika tidak ada simpul, maka simpul yang dikunjungi akan dimunculkan.</li>
+    <li>jika tidak ada simpul, maka simpul yang dikunjungi akan ditampilkan.</li>
   </ul></p>
-
+<p>Cara kerja algoritma DFS;
+  <ol type="1">
+    <li>Dimulai dengan meletakkan salah satu dari titik graph di atas sebuah tumpukan,</li>
+    <li>Ambil item paling atas dari tumpukan dan tambahkan dalam daftar titik yang telah dikunjungi,</li>
+    <li>Buatlah sebuah daftar dari titik yang segaris lurus dengannya. Tambahkan satu yang mana belum dikunjungi pada tumpukan paling atas, dan</li>
+    <li>Ulangi langkah ke 2 dan 3 sampai dengan tumpukan menjadi kosong.</li>
+  </ol></p>
+  <hr>
 
