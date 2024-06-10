@@ -1,5 +1,6 @@
-# [![UNP](https://unp.ac.id/nfs-assets/all/images/logo_unp_white.png)](https://unp.ac.id/)
-# Universitas Negeri Padang (UNP)
+<div align="center">
+  <img src="https://unp.ac.id/nfs-assets/all/images/logo_unp_white.png">
+</div>
 
 # Biodata Diri
 <table>
